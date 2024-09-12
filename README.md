@@ -33,7 +33,7 @@ This small Python script performs a powerful fuzzy keyword search within files l
 3. **Provide Input:** The script will prompt you to enter the following information:
 
     * **Directory Path:** The path to the directory you want to search.
-    * **File Ending:** The file extension to filter by (e.g., `.txt`, `.pdf`).
+    * **File Ending:** The file extension to filter by (e.g., `.txt`, `.pdf` or 'tenor.txt" if you use Georg's extractor).
     * **Keywords:** A comma-separated list of keywords to search for.
     * **Output File Name:** The name of the file where the search results will be saved.
     * **Search Part:** The part of the file to search in ('beginning', 'middle', 'end', or 'all').
