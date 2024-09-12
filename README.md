@@ -22,7 +22,7 @@ This small Python script performs a powerful fuzzy keyword search within files l
 
 ## How to Use
 
-1. **Save the Script:** Save the provided Python code as a `.py` file (e.g., `fuzzy_search.py`).
+1. **Save the Script:** Save the code.
 
 2. **Run the Script:** Open your terminal or command prompt and navigate to the directory where you saved the script. Then execute it:
 
