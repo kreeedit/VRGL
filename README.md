@@ -4,7 +4,11 @@ This small Python script performs a powerful fuzzy keyword search within files l
 
 ## Features
 
-* **Fuzzy Matching:** Finds keywords even with slight variations or misspellings.
+* **Fuzzy Matching:** Finds keywords even with slight variations or misspellings.  It calculates a similarity score between two strings ranging from 0 (completely different) to 100 (perfect match). The algorithm considers various factors like character insertions, deletions, substitutions, and transpositions to determine how closely the strings resemble each other.
+   * Threshold = 100 (exact match)
+   * Threshold = 90 (allows for very minor variations): Small spelling mistakes, Slight differences in capitalization, Perhaps a single character insertion or deletion
+   * Threshold = 80 (more flexibility in matching): More significant spelling errors, Variations in word forms, Potentially even synonyms or closely related term
+
 * **Customizable Search:** 
     * Filter files by extension.
     * Specify the part of the file to search (beginning, middle, end, or all).
