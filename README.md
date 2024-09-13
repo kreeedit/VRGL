@@ -1,4 +1,4 @@
-# VRGL: Versatile Regex (& keyword) Guided Locator (within Charters)
+# VRGL: Versatile Regex (& keyword) Guided Locator
 
 This small Python script performs a powerful fuzzy keyword search within files located in a specified directory and its subdirectories. It utilizes the `fuzzywuzzy` library for flexible matching and provides detailed search results, including file paths, matched keywords, and their context within the files.
 
