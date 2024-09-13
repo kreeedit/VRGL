@@ -56,6 +56,35 @@ Enter the part of the document to search (beginning/middle/end/all): all
 Enter the fuzzy search threshold (0-100, default is 80): 
 Search complete. Results written to search_results.txt
 ```
+## Example result
+
+```bash
+File: /media/folder/folder/folder/b6f491b6385274394257545007dc2adb/fda868c30ee4784a0ac54927f88f7a51/filename.tenor.txt
+Searched in: middle
+Keywords found:
+- postquam (matched as 'postquam')
+  Position: 3534
+  Context: ...icionen! dictorum doininoriim regis et marchionis postquam nobis de transgressione hujiismodi constiterit le...
+- homagcium (matched as 'homagium')
+  Position: 1313
+  Context: ...udum récépissé ju- ramentum quoque fidelitatis et homagium ipsi regí Boemie et suis heredibus seu successori...
+- homagcium (matched as 'homagium')
+  Position: 2359
+  Context: ...tes finniter qnod regibus ac corone regni Boeinie homagium, fidem et juramenta fidelitatis per ipsos prestit...
+
+File: /media/folder/folder/folder/folder/4a33a5fa9c1a4d9aed6a540d14cda4d1/09a7f900f6588b00c5f464590c192daf/filname.tenor.txt
+Searched in: middle
+Keywords found:
+- postquam (matched as 'postquam')
+  Position: 2039
+  Context: ...ores suos, dicte ciuitatis Tribuses expugnatores, postquam nobis omagium fidelitatis fecerant, ad pacem nost...
+- homagcium (matched as 'omagium')
+  Position: 2054
+  Context: ...e ciuitatis Tribuses expugnatores, postquam nobis omagium fidelitatis fecerant, ad pacem nostram recipiamus...
+
+```
+
+
 
 **Note:** The script handles potential errors when reading files and provides informative messages in case of issues.
 
