@@ -83,8 +83,3 @@ Keywords found:
   Context: ...e ciuitatis Tribuses expugnatores, postquam nobis omagium fidelitatis fecerant, ad pacem nostram recipiamus...
 
 ```
-
-
-
-**Note:** The script handles potential errors when reading files and provides informative messages in case of issues.
-
